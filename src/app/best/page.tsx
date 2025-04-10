@@ -1,8 +1,21 @@
-import Link from 'next/link';
+'use client';
 import Header from '../Header';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+
+type Item = {
+  id: number;
+  name: string;
+  price: number;
+  category: string;
+  isBest: boolean;
+  rank?: number;
+  image: string;
+};
 
 const Best = () => {
+  const [bestItem, setBestItem] = useState<Item[]>([]);
+
   const currentPage = 1;
   const totalPages = 10;
 
@@ -14,25 +27,49 @@ const Best = () => {
     return pages;
   };
 
+  const fetchBestItems = async () => {
+    const res = await fetch('/api/best-items?isBest=true');
+    const data = await res.json();
+    setBestItem(data);
+  };
+
+  useEffect(() => {
+    fetchBestItems();
+  }, []);
+
+  useEffect(() => {
+    console.log('bestItem', bestItem);
+  }, [bestItem]);
+
   return (
     <div>
       <Header />
       <div className="max-w-custom text-right">검색</div>
       <h1>베스트 아이템</h1>
       <section className="my-10">
-        <ul className="w-full grid grid-cols-[repeat(3,1fr)] gap-x-5 gap-y-20 mb-10 px-4">
-          <li>
-            <a className="inline-block w-full rounded-2xl" href="">
-              <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
-                <div className="w-full h-auto bg-gray-200 p-4">
-                  <Image width={269} height={269} src={'/favicon.ico'} alt=""></Image>
+        <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-20 mb-10 px-4">
+          {bestItem?.map((item: Item) => (
+            <li key={item.id}>
+              <a className="inline-block w-full rounded-2xl" href="">
+                <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
+                  <div className="w-full h-auto bg-gray-200 p-4">
+                    <Image
+                      className="w-full h-[269px] overflow-hidden object-cover object-top-left mx-auto"
+                      width={269}
+                      height={269}
+                      src={item.image}
+                      alt=""
+                    ></Image>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-base font-semibold mb-1">제목</h3>
+                    <span>필터링</span>
+                    <p className="text-lg font-bold">$145</p>
+                  </div>
                 </div>
-                <h3 className="text-base font-semibold mb-1">제목</h3>
-                <span>필터링</span>
-                <p className="text-lg font-bold">$145</p>
-              </div>
-            </a>
-          </li>
+              </a>
+            </li>
+          ))}
         </ul>
         <div className="w-full flex justify-center items-center border-t border-t-gray-400 pt-4">
           <div className="flex items-center space-x-2">

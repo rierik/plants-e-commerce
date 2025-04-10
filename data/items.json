@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "name": "Item 1",
+    "price": 10000,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 1,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Item 2",
+    "price": 10100,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 2,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Item 3",
+    "price": 10200,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 3,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Item 4",
+    "price": 10300,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 4,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Item 5",
+    "price": 10400,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 5,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Item 6",
+    "price": 10500,
+    "category": "etc",
+    "isBest": true,
+    "rank": 6,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Item 7",
+    "price": 10600,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 7,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Item 8",
+    "price": 10700,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 8,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Item 9",
+    "price": 10800,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 9,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Item 10",
+    "price": 10900,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 10,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Item 11",
+    "price": 11000,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 11,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Item 12",
+    "price": 11100,
+    "category": "etc",
+    "isBest": true,
+    "rank": 12,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Item 13",
+    "price": 11200,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 13,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Item 14",
+    "price": 11300,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 14,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Item 15",
+    "price": 11400,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 15,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Item 16",
+    "price": 11500,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 16,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Item 17",
+    "price": 11600,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 17,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Item 18",
+    "price": 11700,
+    "category": "etc",
+    "isBest": true,
+    "rank": 18,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Item 19",
+    "price": 11800,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 19,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Item 20",
+    "price": 11900,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 20,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Item 21",
+    "price": 12000,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 21,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Item 22",
+    "price": 12100,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 22,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Item 23",
+    "price": 12200,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 23,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Item 24",
+    "price": 12300,
+    "category": "etc",
+    "isBest": true,
+    "rank": 24,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Item 25",
+    "price": 12400,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 25,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Item 26",
+    "price": 12500,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 26,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Item 27",
+    "price": 12600,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 27,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Item 28",
+    "price": 12700,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 28,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Item 29",
+    "price": 12800,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 29,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Item 30",
+    "price": 12900,
+    "category": "etc",
+    "isBest": true,
+    "rank": 30,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Item 31",
+    "price": 13000,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 31,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Item 32",
+    "price": 13100,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 32,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Item 33",
+    "price": 13200,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 33,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Item 34",
+    "price": 13300,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 34,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Item 35",
+    "price": 13400,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 35,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Item 36",
+    "price": 13500,
+    "category": "etc",
+    "isBest": true,
+    "rank": 36,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Item 37",
+    "price": 13600,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 37,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Item 38",
+    "price": 13700,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 38,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Item 39",
+    "price": 13800,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 39,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Item 40",
+    "price": 13900,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 40,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Item 41",
+    "price": 14000,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 41,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Item 42",
+    "price": 14100,
+    "category": "etc",
+    "isBest": true,
+    "rank": 42,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Item 43",
+    "price": 14200,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 43,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Item 44",
+    "price": 14300,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 44,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Item 45",
+    "price": 14400,
+    "category": "hydroponic",
+    "isBest": true,
+    "rank": 45,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Item 46",
+    "price": 14500,
+    "category": "air_purifying",
+    "isBest": true,
+    "rank": 46,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Item 47",
+    "price": 14600,
+    "category": "lucky",
+    "isBest": true,
+    "rank": 47,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Item 48",
+    "price": 14700,
+    "category": "etc",
+    "isBest": true,
+    "rank": 48,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Item 49",
+    "price": 14800,
+    "category": "succulent",
+    "isBest": true,
+    "rank": 49,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Item 50",
+    "price": 14900,
+    "category": "foliage",
+    "isBest": true,
+    "rank": 50,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Item 51",
+    "price": 15000,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Item 52",
+    "price": 15100,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Item 53",
+    "price": 15200,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Item 54",
+    "price": 15300,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Item 55",
+    "price": 15400,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Item 56",
+    "price": 15500,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Item 57",
+    "price": 15600,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Item 58",
+    "price": 15700,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Item 59",
+    "price": 15800,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Item 60",
+    "price": 15900,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Item 61",
+    "price": 16000,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Item 62",
+    "price": 16100,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Item 63",
+    "price": 16200,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Item 64",
+    "price": 16300,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Item 65",
+    "price": 16400,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Item 66",
+    "price": 16500,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Item 67",
+    "price": 16600,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Item 68",
+    "price": 16700,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Item 69",
+    "price": 16800,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Item 70",
+    "price": 16900,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Item 71",
+    "price": 17000,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Item 72",
+    "price": 17100,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Item 73",
+    "price": 17200,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Item 74",
+    "price": 17300,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Item 75",
+    "price": 17400,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Item 76",
+    "price": 17500,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Item 77",
+    "price": 17600,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Item 78",
+    "price": 17700,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Item 79",
+    "price": 17800,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Item 80",
+    "price": 17900,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Item 81",
+    "price": 18000,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Item 82",
+    "price": 18100,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Item 83",
+    "price": 18200,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Item 84",
+    "price": 18300,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Item 85",
+    "price": 18400,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Item 86",
+    "price": 18500,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Item 87",
+    "price": 18600,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Item 88",
+    "price": 18700,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Item 89",
+    "price": 18800,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Item 90",
+    "price": 18900,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Item 91",
+    "price": 19000,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Item 92",
+    "price": 19100,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Item 93",
+    "price": 19200,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Item 94",
+    "price": 19300,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Item 95",
+    "price": 19400,
+    "category": "lucky",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Item 96",
+    "price": 19500,
+    "category": "etc",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Item 97",
+    "price": 19600,
+    "category": "succulent",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Item 98",
+    "price": 19700,
+    "category": "foliage",
+    "isBest": false,
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Item 99",
+    "price": 19800,
+    "category": "hydroponic",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Item 100",
+    "price": 19900,
+    "category": "air_purifying",
+    "isBest": false,
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+  }
+]
