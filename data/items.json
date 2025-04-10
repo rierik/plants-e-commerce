@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Item 1",
+    "name": "호접란",
     "price": 10000,
     "category": "succulent",
     "isBest": true,
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Item 2",
+    "name": "몬스테라",
     "price": 10100,
     "category": "foliage",
     "isBest": true,
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "name": "Item 3",
+    "name": "스파티필럼",
     "price": 10200,
     "category": "hydroponic",
     "isBest": true,
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "name": "Item 4",
+    "name": "산세베리아",
     "price": 10300,
     "category": "air_purifying",
     "isBest": true,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "name": "Item 5",
+    "name": "대나무",
     "price": 10400,
     "category": "lucky",
     "isBest": true,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "name": "Item 6",
+    "name": "피토니아",
     "price": 10500,
     "category": "etc",
     "isBest": true,
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "name": "Item 7",
+    "name": "리톱스",
     "price": 10600,
     "category": "succulent",
     "isBest": true,
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "name": "Item 8",
+    "name": "알로카시아",
     "price": 10700,
     "category": "foliage",
     "isBest": true,
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "name": "Item 9",
+    "name": "안스리움",
     "price": 10800,
     "category": "hydroponic",
     "isBest": true,
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "name": "Item 10",
+    "name": "아이비",
     "price": 10900,
     "category": "air_purifying",
     "isBest": true,
@@ -91,7 +91,7 @@
   },
   {
     "id": 11,
-    "name": "Item 11",
+    "name": "크리스마스 선인장",
     "price": 11000,
     "category": "lucky",
     "isBest": true,
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "name": "Item 12",
+    "name": "칼라디움",
     "price": 11100,
     "category": "etc",
     "isBest": true,
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "name": "Item 13",
+    "name": "에케베리아",
     "price": 11200,
     "category": "succulent",
     "isBest": true,
@@ -118,7 +118,7 @@
   },
   {
     "id": 14,
-    "name": "Item 14",
+    "name": "고무나무",
     "price": 11300,
     "category": "foliage",
     "isBest": true,
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "name": "Item 15",
+    "name": "개운죽",
     "price": 11400,
     "category": "hydroponic",
     "isBest": true,
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "name": "Item 16",
+    "name": "테이블야자",
     "price": 11500,
     "category": "air_purifying",
     "isBest": true,
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "name": "Item 17",
+    "name": "용설란",
     "price": 11600,
     "category": "lucky",
     "isBest": true,
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "name": "Item 18",
+    "name": "제라늄",
     "price": 11700,
     "category": "etc",
     "isBest": true,
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "name": "Item 19",
+    "name": "선인장",
     "price": 11800,
     "category": "succulent",
     "isBest": true,
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "name": "Item 20",
+    "name": "마란타",
     "price": 11900,
     "category": "foliage",
     "isBest": true,
@@ -181,7 +181,7 @@
   },
   {
     "id": 21,
-    "name": "Item 21",
+    "name": "파파야",
     "price": 12000,
     "category": "hydroponic",
     "isBest": true,
@@ -190,7 +190,7 @@
   },
   {
     "id": 22,
-    "name": "Item 22",
+    "name": "틸란드시아",
     "price": 12100,
     "category": "air_purifying",
     "isBest": true,
@@ -199,7 +199,7 @@
   },
   {
     "id": 23,
-    "name": "Item 23",
+    "name": "행운목",
     "price": 12200,
     "category": "lucky",
     "isBest": true,
@@ -208,7 +208,7 @@
   },
   {
     "id": 24,
-    "name": "Item 24",
+    "name": "칼랑코에",
     "price": 12300,
     "category": "etc",
     "isBest": true,
@@ -217,7 +217,7 @@
   },
   {
     "id": 25,
-    "name": "Item 25",
+    "name": "세덤",
     "price": 12400,
     "category": "succulent",
     "isBest": true,
@@ -226,7 +226,7 @@
   },
   {
     "id": 26,
-    "name": "Item 26",
+    "name": "페페로미아",
     "price": 12500,
     "category": "foliage",
     "isBest": true,
@@ -235,7 +235,7 @@
   },
   {
     "id": 27,
-    "name": "Item 27",
+    "name": "히아신스",
     "price": 12600,
     "category": "hydroponic",
     "isBest": true,
@@ -244,7 +244,7 @@
   },
   {
     "id": 28,
-    "name": "Item 28",
+    "name": "스킨답서스",
     "price": 12700,
     "category": "air_purifying",
     "isBest": true,
@@ -253,7 +253,7 @@
   },
   {
     "id": 29,
-    "name": "Item 29",
+    "name": "금전수",
     "price": 12800,
     "category": "lucky",
     "isBest": true,
@@ -262,7 +262,7 @@
   },
   {
     "id": 30,
-    "name": "Item 30",
+    "name": "칼라디움",
     "price": 12900,
     "category": "etc",
     "isBest": true,
@@ -271,7 +271,7 @@
   },
   {
     "id": 31,
-    "name": "Item 31",
+    "name": "연봉",
     "price": 13000,
     "category": "succulent",
     "isBest": true,
@@ -280,7 +280,7 @@
   },
   {
     "id": 32,
-    "name": "Item 32",
+    "name": "디펜바키아",
     "price": 13100,
     "category": "foliage",
     "isBest": true,
@@ -289,7 +289,7 @@
   },
   {
     "id": 33,
-    "name": "Item 33",
+    "name": "개운죽",
     "price": 13200,
     "category": "hydroponic",
     "isBest": true,
@@ -298,7 +298,7 @@
   },
   {
     "id": 34,
-    "name": "Item 34",
+    "name": "팔손이",
     "price": 13300,
     "category": "air_purifying",
     "isBest": true,
@@ -307,7 +307,7 @@
   },
   {
     "id": 35,
-    "name": "Item 35",
+    "name": "행운목",
     "price": 13400,
     "category": "lucky",
     "isBest": true,
@@ -316,7 +316,7 @@
   },
   {
     "id": 36,
-    "name": "Item 36",
+    "name": "제라늄",
     "price": 13500,
     "category": "etc",
     "isBest": true,
@@ -325,7 +325,7 @@
   },
   {
     "id": 37,
-    "name": "Item 37",
+    "name": "수박페페",
     "price": 13600,
     "category": "succulent",
     "isBest": true,
@@ -334,7 +334,7 @@
   },
   {
     "id": 38,
-    "name": "Item 38",
+    "name": "고사리",
     "price": 13700,
     "category": "foliage",
     "isBest": true,
@@ -343,7 +343,7 @@
   },
   {
     "id": 39,
-    "name": "Item 39",
+    "name": "안스리움",
     "price": 13800,
     "category": "hydroponic",
     "isBest": true,
@@ -352,7 +352,7 @@
   },
   {
     "id": 40,
-    "name": "Item 40",
+    "name": "아글라오네마",
     "price": 13900,
     "category": "air_purifying",
     "isBest": true,
@@ -361,7 +361,7 @@
   },
   {
     "id": 41,
-    "name": "Item 41",
+    "name": "금전수",
     "price": 14000,
     "category": "lucky",
     "isBest": true,
@@ -370,7 +370,7 @@
   },
   {
     "id": 42,
-    "name": "Item 42",
+    "name": "칼라디움",
     "price": 14100,
     "category": "etc",
     "isBest": true,
@@ -379,7 +379,7 @@
   },
   {
     "id": 43,
-    "name": "Item 43",
+    "name": "리톱스",
     "price": 14200,
     "category": "succulent",
     "isBest": true,
@@ -388,7 +388,7 @@
   },
   {
     "id": 44,
-    "name": "Item 44",
+    "name": "몬스테라",
     "price": 14300,
     "category": "foliage",
     "isBest": true,
@@ -397,7 +397,7 @@
   },
   {
     "id": 45,
-    "name": "Item 45",
+    "name": "스파티필럼",
     "price": 14400,
     "category": "hydroponic",
     "isBest": true,
@@ -406,7 +406,7 @@
   },
   {
     "id": 46,
-    "name": "Item 46",
+    "name": "산세베리아",
     "price": 14500,
     "category": "air_purifying",
     "isBest": true,
@@ -415,7 +415,7 @@
   },
   {
     "id": 47,
-    "name": "Item 47",
+    "name": "행운목",
     "price": 14600,
     "category": "lucky",
     "isBest": true,
@@ -424,7 +424,7 @@
   },
   {
     "id": 48,
-    "name": "Item 48",
+    "name": "칼랑코에",
     "price": 14700,
     "category": "etc",
     "isBest": true,
@@ -433,7 +433,7 @@
   },
   {
     "id": 49,
-    "name": "Item 49",
+    "name": "에케베리아",
     "price": 14800,
     "category": "succulent",
     "isBest": true,
@@ -442,7 +442,7 @@
   },
   {
     "id": 50,
-    "name": "Item 50",
+    "name": "고무나무",
     "price": 14900,
     "category": "foliage",
     "isBest": true,
@@ -451,7 +451,7 @@
   },
   {
     "id": 51,
-    "name": "Item 51",
+    "name": "파파야",
     "price": 15000,
     "category": "hydroponic",
     "isBest": false,
@@ -459,7 +459,7 @@
   },
   {
     "id": 52,
-    "name": "Item 52",
+    "name": "틸란드시아",
     "price": 15100,
     "category": "air_purifying",
     "isBest": false,
@@ -467,7 +467,7 @@
   },
   {
     "id": 53,
-    "name": "Item 53",
+    "name": "행운목",
     "price": 15200,
     "category": "lucky",
     "isBest": false,
@@ -475,7 +475,7 @@
   },
   {
     "id": 54,
-    "name": "Item 54",
+    "name": "칼랑코에",
     "price": 15300,
     "category": "etc",
     "isBest": false,
@@ -483,7 +483,7 @@
   },
   {
     "id": 55,
-    "name": "Item 55",
+    "name": "세덤",
     "price": 15400,
     "category": "succulent",
     "isBest": false,
@@ -491,7 +491,7 @@
   },
   {
     "id": 56,
-    "name": "Item 56",
+    "name": "페페로미아",
     "price": 15500,
     "category": "foliage",
     "isBest": false,
@@ -499,7 +499,7 @@
   },
   {
     "id": 57,
-    "name": "Item 57",
+    "name": "히아신스",
     "price": 15600,
     "category": "hydroponic",
     "isBest": false,
@@ -507,7 +507,7 @@
   },
   {
     "id": 58,
-    "name": "Item 58",
+    "name": "스킨답서스",
     "price": 15700,
     "category": "air_purifying",
     "isBest": false,
@@ -515,7 +515,7 @@
   },
   {
     "id": 59,
-    "name": "Item 59",
+    "name": "금전수",
     "price": 15800,
     "category": "lucky",
     "isBest": false,
@@ -523,7 +523,7 @@
   },
   {
     "id": 60,
-    "name": "Item 60",
+    "name": "칼라디움",
     "price": 15900,
     "category": "etc",
     "isBest": false,
@@ -531,7 +531,7 @@
   },
   {
     "id": 61,
-    "name": "Item 61",
+    "name": "연봉",
     "price": 16000,
     "category": "succulent",
     "isBest": false,
@@ -539,7 +539,7 @@
   },
   {
     "id": 62,
-    "name": "Item 62",
+    "name": "디펜바키아",
     "price": 16100,
     "category": "foliage",
     "isBest": false,
@@ -547,7 +547,7 @@
   },
   {
     "id": 63,
-    "name": "Item 63",
+    "name": "개운죽",
     "price": 16200,
     "category": "hydroponic",
     "isBest": false,
@@ -555,7 +555,7 @@
   },
   {
     "id": 64,
-    "name": "Item 64",
+    "name": "팔손이",
     "price": 16300,
     "category": "air_purifying",
     "isBest": false,
@@ -563,7 +563,7 @@
   },
   {
     "id": 65,
-    "name": "Item 65",
+    "name": "행운목",
     "price": 16400,
     "category": "lucky",
     "isBest": false,
@@ -571,7 +571,7 @@
   },
   {
     "id": 66,
-    "name": "Item 66",
+    "name": "제라늄",
     "price": 16500,
     "category": "etc",
     "isBest": false,
@@ -579,7 +579,7 @@
   },
   {
     "id": 67,
-    "name": "Item 67",
+    "name": "수박페페",
     "price": 16600,
     "category": "succulent",
     "isBest": false,
@@ -587,7 +587,7 @@
   },
   {
     "id": 68,
-    "name": "Item 68",
+    "name": "고사리",
     "price": 16700,
     "category": "foliage",
     "isBest": false,
@@ -595,7 +595,7 @@
   },
   {
     "id": 69,
-    "name": "Item 69",
+    "name": "안스리움",
     "price": 16800,
     "category": "hydroponic",
     "isBest": false,
@@ -603,7 +603,7 @@
   },
   {
     "id": 70,
-    "name": "Item 70",
+    "name": "스킨답서스",
     "price": 16900,
     "category": "air_purifying",
     "isBest": false,
@@ -611,7 +611,7 @@
   },
   {
     "id": 71,
-    "name": "Item 71",
+    "name": "금전수",
     "price": 17000,
     "category": "lucky",
     "isBest": false,
@@ -619,7 +619,7 @@
   },
   {
     "id": 72,
-    "name": "Item 72",
+    "name": "칼라디움",
     "price": 17100,
     "category": "etc",
     "isBest": false,
@@ -627,7 +627,7 @@
   },
   {
     "id": 73,
-    "name": "Item 73",
+    "name": "리톱스",
     "price": 17200,
     "category": "succulent",
     "isBest": false,
@@ -635,7 +635,7 @@
   },
   {
     "id": 74,
-    "name": "Item 74",
+    "name": "마란타",
     "price": 17300,
     "category": "foliage",
     "isBest": false,
@@ -643,7 +643,7 @@
   },
   {
     "id": 75,
-    "name": "Item 75",
+    "name": "안스리움",
     "price": 17400,
     "category": "hydroponic",
     "isBest": false,
@@ -651,7 +651,7 @@
   },
   {
     "id": 76,
-    "name": "Item 76",
+    "name": "틸란드시아",
     "price": 17500,
     "category": "air_purifying",
     "isBest": false,
@@ -659,7 +659,7 @@
   },
   {
     "id": 77,
-    "name": "Item 77",
+    "name": "행운목",
     "price": 17600,
     "category": "lucky",
     "isBest": false,
@@ -667,7 +667,7 @@
   },
   {
     "id": 78,
-    "name": "Item 78",
+    "name": "칼랑코에",
     "price": 17700,
     "category": "etc",
     "isBest": false,
@@ -675,7 +675,7 @@
   },
   {
     "id": 79,
-    "name": "Item 79",
+    "name": "세덤",
     "price": 17800,
     "category": "succulent",
     "isBest": false,
@@ -683,7 +683,7 @@
   },
   {
     "id": 80,
-    "name": "Item 80",
+    "name": "디펜바키아",
     "price": 17900,
     "category": "foliage",
     "isBest": false,
@@ -691,7 +691,7 @@
   },
   {
     "id": 81,
-    "name": "Item 81",
+    "name": "개운죽",
     "price": 18000,
     "category": "hydroponic",
     "isBest": false,
@@ -699,7 +699,7 @@
   },
   {
     "id": 82,
-    "name": "Item 82",
+    "name": "팔손이",
     "price": 18100,
     "category": "air_purifying",
     "isBest": false,
@@ -707,7 +707,7 @@
   },
   {
     "id": 83,
-    "name": "Item 83",
+    "name": "행운목",
     "price": 18200,
     "category": "lucky",
     "isBest": false,
@@ -715,7 +715,7 @@
   },
   {
     "id": 84,
-    "name": "Item 84",
+    "name": "제라늄",
     "price": 18300,
     "category": "etc",
     "isBest": false,
@@ -723,7 +723,7 @@
   },
   {
     "id": 85,
-    "name": "Item 85",
+    "name": "수박페페",
     "price": 18400,
     "category": "succulent",
     "isBest": false,
@@ -731,7 +731,7 @@
   },
   {
     "id": 86,
-    "name": "Item 86",
+    "name": "고사리",
     "price": 18500,
     "category": "foliage",
     "isBest": false,
@@ -739,7 +739,7 @@
   },
   {
     "id": 87,
-    "name": "Item 87",
+    "name": "안스리움",
     "price": 18600,
     "category": "hydroponic",
     "isBest": false,
@@ -747,7 +747,7 @@
   },
   {
     "id": 88,
-    "name": "Item 88",
+    "name": "스킨답서스",
     "price": 18700,
     "category": "air_purifying",
     "isBest": false,
@@ -755,7 +755,7 @@
   },
   {
     "id": 89,
-    "name": "Item 89",
+    "name": "금전수",
     "price": 18800,
     "category": "lucky",
     "isBest": false,
@@ -763,7 +763,7 @@
   },
   {
     "id": 90,
-    "name": "Item 90",
+    "name": "칼라디움",
     "price": 18900,
     "category": "etc",
     "isBest": false,
@@ -771,7 +771,7 @@
   },
   {
     "id": 91,
-    "name": "Item 91",
+    "name": "리톱스",
     "price": 19000,
     "category": "succulent",
     "isBest": false,
@@ -779,7 +779,7 @@
   },
   {
     "id": 92,
-    "name": "Item 92",
+    "name": "마란타",
     "price": 19100,
     "category": "foliage",
     "isBest": false,
@@ -787,7 +787,7 @@
   },
   {
     "id": 93,
-    "name": "Item 93",
+    "name": "히아신스",
     "price": 19200,
     "category": "hydroponic",
     "isBest": false,
@@ -795,7 +795,7 @@
   },
   {
     "id": 94,
-    "name": "Item 94",
+    "name": "아글라오네마",
     "price": 19300,
     "category": "air_purifying",
     "isBest": false,
@@ -803,7 +803,7 @@
   },
   {
     "id": 95,
-    "name": "Item 95",
+    "name": "행운목",
     "price": 19400,
     "category": "lucky",
     "isBest": false,
@@ -811,7 +811,7 @@
   },
   {
     "id": 96,
-    "name": "Item 96",
+    "name": "칼랑코에",
     "price": 19500,
     "category": "etc",
     "isBest": false,
@@ -819,7 +819,7 @@
   },
   {
     "id": 97,
-    "name": "Item 97",
+    "name": "세덤",
     "price": 19600,
     "category": "succulent",
     "isBest": false,
@@ -827,7 +827,7 @@
   },
   {
     "id": 98,
-    "name": "Item 98",
+    "name": "페페로미아",
     "price": 19700,
     "category": "foliage",
     "isBest": false,
@@ -835,7 +835,7 @@
   },
   {
     "id": 99,
-    "name": "Item 99",
+    "name": "개운죽",
     "price": 19800,
     "category": "hydroponic",
     "isBest": false,
@@ -843,7 +843,7 @@
   },
   {
     "id": 100,
-    "name": "Item 100",
+    "name": "팔손이",
     "price": 19900,
     "category": "air_purifying",
     "isBest": false,

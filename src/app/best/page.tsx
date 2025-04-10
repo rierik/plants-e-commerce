@@ -13,6 +13,15 @@ type Item = {
   image: string;
 };
 
+const categoryMap: Record<string, string> = {
+  succulent: '다육이',
+  foliage: '관엽식물',
+  hydroponic: '수경재배식물',
+  air_purifying: '공기정화식물',
+  lucky: '행운상징 식물',
+  etc: '기타',
+};
+
 const Best = () => {
   const [bestItem, setBestItem] = useState<Item[]>([]);
 
@@ -62,9 +71,9 @@ const Best = () => {
                     ></Image>
                   </div>
                   <div className="p-4">
-                    <h3 className="text-base font-semibold mb-1">제목</h3>
-                    <span>필터링</span>
-                    <p className="text-lg font-bold">$145</p>
+                    <h3 className="text-xl font-semibold">{item.name}</h3>
+                    <span className="text-gray-500">{categoryMap[item.category]}</span>
+                    <p className="text-lg font-bold">{item.price.toLocaleString()}원</p>
                   </div>
                 </div>
               </a>
