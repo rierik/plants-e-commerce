@@ -4,6 +4,13 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 type Item = {
+  data: ItemData[];
+  total: number;
+  page: number;
+  limit: number;
+};
+
+type ItemData = {
   id: number;
   name: string;
   price: number;
@@ -23,27 +30,34 @@ const categoryMap: Record<string, string> = {
 };
 
 const Best = () => {
-  const [bestItem, setBestItem] = useState<Item[]>([]);
+  const [bestItem, setBestItem] = useState<Item | null>(null);
 
-  const currentPage = 1;
-  const totalPages = 10;
+  const [currentPage, setCurrentPage] = useState(1);
+  const [total, setTotal] = useState(0);
+  const limit = 20;
 
   const getPages = () => {
-    const pages = [];
-    for (let i = 1; i <= totalPages; i++) {
-      pages.push(i);
-    }
-    return pages;
+    const totalPages = Math.ceil(total / limit);
+    return Array.from({ length: totalPages }, (_, i) => i + 1);
   };
 
-  const fetchBestItems = async () => {
-    const res = await fetch('/api/best-items?isBest=true');
+  const goToPage = (page: number) => {
+    if (page >= 1 && page <= Math.ceil(total / limit)) {
+      fetchBestItems(page);
+    }
+  };
+
+  const fetchBestItems = async (page: number) => {
+    const res = await fetch(`/api/best-items?isBest=true&page=${page}&limit=${limit}`);
     const data = await res.json();
     setBestItem(data);
+
+    setTotal(data.total); // ← 전체 아이템 수
+    setCurrentPage(data.page); // ← 현재 페이지
   };
 
   useEffect(() => {
-    fetchBestItems();
+    fetchBestItems(currentPage);
   }, []);
 
   useEffect(() => {
@@ -56,12 +70,12 @@ const Best = () => {
       <div className="max-w-custom text-right">검색</div>
       <h1>베스트 아이템</h1>
       <section className="my-10">
-        <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-20 mb-10 px-4">
-          {bestItem?.map((item: Item) => (
+        <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10 px-4">
+          {bestItem?.data.map((item: ItemData) => (
             <li key={item.id}>
               <a className="inline-block w-full rounded-2xl" href="">
                 <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
-                  <div className="w-full h-auto bg-gray-200 p-4">
+                  <div className="w-full h-auto bg-gray-200">
                     <Image
                       className="w-full h-[269px] overflow-hidden object-cover object-top-left mx-auto"
                       width={269}
@@ -83,7 +97,12 @@ const Best = () => {
         <div className="w-full flex justify-center items-center border-t border-t-gray-400 pt-4">
           <div className="flex items-center space-x-2">
             {/* Previous Button */}
-            <button className="flex items-center border rounded-md px-3 py-1 text-sm text-gray-900 hover:bg-gray-100 disabled:opacity-50" disabled>
+
+            <button
+              onClick={() => goToPage(currentPage - 1)} // ✅ 이걸 추가해야 작동함
+              disabled={currentPage === 1}
+              className="flex items-center border rounded-md px-3 py-1 text-sm text-gray-900 hover:bg-gray-100 disabled:opacity-50"
+            >
               <span className="mr-1">←</span> Previous
             </button>
 
@@ -91,6 +110,7 @@ const Best = () => {
             {getPages().map((page) => (
               <button
                 key={page}
+                onClick={() => goToPage(page)}
                 className={`w-8 h-8 rounded-md text-sm ${page === currentPage ? 'bg-gray-200 text-black font-medium' : 'hover:bg-gray-100 text-gray-700'}`}
               >
                 {page}
@@ -98,7 +118,11 @@ const Best = () => {
             ))}
 
             {/* Next Button */}
-            <button className="flex items-center border rounded-md px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">
+            <button
+              onClick={() => goToPage(currentPage + 1)}
+              disabled={currentPage === Math.ceil(total / limit)}
+              className="flex items-center border rounded-md px-3 py-1 text-sm text-gray-700 hover:bg-gray-100 disabled:opacity-50"
+            >
               Next <span className="ml-1">→</span>
             </button>
           </div>

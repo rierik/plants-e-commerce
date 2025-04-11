@@ -16,10 +16,24 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const isBest = searchParams.get('isBest') === 'true';
   const category = searchParams.get('category');
+  const page = parseInt(searchParams.get('page') || '1', 10);
+  const limit = parseInt(searchParams.get('limit') || '20', 10);
 
-  const result = isBest ? items.filter((item: any) => item.isBest) : items;
+  // 1. 필터링
+  let filtered = isBest ? items.filter((item: any) => item.isBest) : items;
+  if (category) {
+    filtered = filtered.filter((item: any) => item.category === category);
+  }
 
-  console.log('result', result);
+  const total = filtered.length;
+  const start = (page - 1) * limit;
+  const end = start + limit;
+  const paginated = filtered.slice(start, end);
 
-  return NextResponse.json(result);
+  return NextResponse.json({
+    data: paginated,
+    total,
+    page,
+    limit,
+  });
 }
