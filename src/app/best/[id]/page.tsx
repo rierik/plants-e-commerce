@@ -13,6 +13,8 @@ interface BestItem {
   rank?: number;
   image: string;
   originalPrice: number;
+  discount: number;
+  details: string[];
 }
 
 const categoryMap: Record<string, string> = {
@@ -28,7 +30,8 @@ const BestItemDetails = () => {
   const { id } = useParams();
   const [item, setItem] = useState<BestItem | null>(null);
   const [selectedImage, setSelectedImage] = useState<string>('');
-  const [topFiveItem, setTopFiveItem] = useState<BestItem | null>(null);
+  const [topFiveItem, setTopFiveItem] = useState<BestItem[] | null>(null);
+  const [visible, setVisible] = useState(false);
 
   const fetchDetailItem = async () => {
     const res = await fetch(`/api/best-items/${id}`);
@@ -38,7 +41,7 @@ const BestItemDetails = () => {
   };
 
   const topFiveItems = async () => {
-    const res = await fetch('/api/best-items?isBest=true&limit=5');
+    const res = await fetch('/api/best-items?isBest=true&limit=20');
     const data = await res.json();
     setTopFiveItem(data.data);
   };
@@ -50,7 +53,28 @@ const BestItemDetails = () => {
     }
   }, [id]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   if (!item) return <div className="text-center mt-10">로딩 중...</div>;
+
+  function calculateDiscountPrice(originalPrice: number, discountPercent: number) {
+    const discountRate = discountPercent / 100; // % → 소수
+    const discountAmount = originalPrice * discountRate;
+    const finalPrice = originalPrice - discountAmount;
+
+    return finalPrice;
+  }
 
   return (
     <>
@@ -68,8 +92,13 @@ const BestItemDetails = () => {
             <p className="text-lg text-gray-600">{categoryMap[item.category]}</p>
 
             <div className="space-y-1">
-              {item.originalPrice && <p className="text-gray-500 line-through">₩{item.originalPrice.toLocaleString()}</p>}
-              <p className="text-2xl font-bold text-green-600">₩{item.price.toLocaleString()}</p>
+              {item.discount && (
+                <div>
+                  <span>{item.discount}%</span>
+                  <p className="ml-3 inline-block text-gray-500 line-through">{item.price.toLocaleString()}원</p>
+                </div>
+              )}
+              <p className="text-2xl font-bold text-green-600">{calculateDiscountPrice(item.price, item.discount)}원</p>
             </div>
 
             <div className="flex items-center gap-4">
@@ -91,7 +120,49 @@ const BestItemDetails = () => {
             </div>
           </div>
         </div>
+
+        {/* 인기 상품
+        {topFiveItem && (
+          <div className="col-span-1 md:col-span-2 mt-10 border-t pt-1 max-w-custom overflow-hidden">
+            <h2 className="text-2xl font-bold mb-4">인기 상품</h2>
+            <Swiper
+              modules={[Navigation, Scrollbar, Autoplay]} // 이렇게 넘기는 방식이 최신
+              loop={true} // 슬라이드 루프
+              navigation={true} // prev, next button
+              slidesPerView={7}
+            >
+              {topFiveItem.map((item: BestItem) => (
+                <SwiperSlide key={item.id}>
+                  <li key={item.id} className="w-[144px] flex flex-col items-center border border-gray-300 rounded-lg shadow-sm overflow-hidden">
+                    <Image src={item.image || '/images/default.jpg'} alt={item.name} width={180} height={180} className="w-36 h-36 " />
+                    <p className="p-2">{item.name}</p>
+                  </li>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        )} */}
       </div>
+      {/* 상세 사진 */}
+      <section>
+        <h2 className="title-p my-10">상세 정보</h2>
+        {item.details.map((image: string, index: number) => (
+          <div className="w-full h-auto px-40" key={index}>
+            <Image src={image} className="my-14 rounded-xl" layout="responsive" width={1} height={1} alt="상세정보"></Image>
+          </div>
+        ))}
+      </section>
+
+      <section></section>
+
+      <aside>
+        <button
+          onClick={scrollToTop}
+          className="fixed right-5 bottom-5 w-12 h-12 bg-gray-100 rounded-full text-center leading-12 shadow-lg text-gray-700 cursor-pointer"
+        >
+          Top ^
+        </button>
+      </aside>
     </>
   );
 };

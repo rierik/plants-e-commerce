@@ -4,849 +4,1303 @@
     "name": "호접란",
     "price": 10000,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 1,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 2,
     "name": "몬스테라",
     "price": 10100,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 2,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 3,
     "name": "스파티필럼",
     "price": 10200,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 3,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 4,
     "name": "산세베리아",
     "price": 10300,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 4,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 5,
     "name": "대나무",
     "price": 10400,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 5,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 6,
     "name": "피토니아",
     "price": 10500,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 6,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 7,
     "name": "리톱스",
     "price": 10600,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 7,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 8,
     "name": "알로카시아",
     "price": 10700,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 8,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 9,
     "name": "안스리움",
     "price": 10800,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 9,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 10,
     "name": "아이비",
     "price": 10900,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 10,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 11,
     "name": "크리스마스 선인장",
     "price": 11000,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 11,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 12,
     "name": "칼라디움",
     "price": 11100,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 12,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 13,
     "name": "에케베리아",
     "price": 11200,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 13,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 14,
     "name": "고무나무",
     "price": 11300,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 14,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 15,
     "name": "개운죽",
     "price": 11400,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 15,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 16,
     "name": "테이블야자",
     "price": 11500,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 16,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 17,
     "name": "용설란",
     "price": 11600,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 17,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 18,
     "name": "제라늄",
     "price": 11700,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 18,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 19,
     "name": "선인장",
     "price": 11800,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 19,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 20,
     "name": "마란타",
     "price": 11900,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 20,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 21,
     "name": "파파야",
     "price": 12000,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 21,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 22,
     "name": "틸란드시아",
     "price": 12100,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 22,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 23,
     "name": "행운목",
     "price": 12200,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 23,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 24,
     "name": "칼랑코에",
     "price": 12300,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 24,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 25,
     "name": "세덤",
     "price": 12400,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 25,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 26,
     "name": "페페로미아",
     "price": 12500,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 26,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 27,
     "name": "히아신스",
     "price": 12600,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 27,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 28,
     "name": "스킨답서스",
     "price": 12700,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 28,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 29,
     "name": "금전수",
     "price": 12800,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 29,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 30,
     "name": "칼라디움",
     "price": 12900,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 30,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 31,
     "name": "연봉",
     "price": 13000,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 31,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 32,
     "name": "디펜바키아",
     "price": 13100,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 32,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 33,
     "name": "개운죽",
     "price": 13200,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 33,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 34,
     "name": "팔손이",
     "price": 13300,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": true,
     "rank": 34,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 35,
     "name": "행운목",
     "price": 13400,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": true,
     "rank": 35,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 36,
     "name": "제라늄",
     "price": 13500,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": true,
     "rank": 36,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 37,
     "name": "수박페페",
     "price": 13600,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": true,
     "rank": 37,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 38,
     "name": "고사리",
     "price": 13700,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 38,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 39,
     "name": "안스리움",
     "price": 13800,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": true,
     "rank": 39,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
-  },
-  {
-    "id": 40,
-    "name": "아글라오네마",
-    "price": 13900,
-    "category": "air_purifying",
-    "isBest": true,
-    "rank": 40,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
-  },
-  {
-    "id": 41,
-    "name": "금전수",
-    "price": 14000,
-    "category": "lucky",
-    "isBest": true,
-    "rank": 41,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
-  },
-  {
-    "id": 42,
-    "name": "칼라디움",
-    "price": 14100,
-    "category": "etc",
-    "isBest": true,
-    "rank": 42,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
-  },
-  {
-    "id": 43,
-    "name": "리톱스",
-    "price": 14200,
-    "category": "succulent",
-    "isBest": true,
-    "rank": 43,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
-  },
-  {
-    "id": 44,
-    "name": "몬스테라",
-    "price": 14300,
-    "category": "foliage",
-    "isBest": true,
-    "rank": 44,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
-  },
-  {
-    "id": 45,
-    "name": "스파티필럼",
-    "price": 14400,
-    "category": "hydroponic",
-    "isBest": true,
-    "rank": 45,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
-  },
-  {
-    "id": 46,
-    "name": "산세베리아",
-    "price": 14500,
-    "category": "air_purifying",
-    "isBest": true,
-    "rank": 46,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
-  },
-  {
-    "id": 47,
-    "name": "행운목",
-    "price": 14600,
-    "category": "lucky",
-    "isBest": true,
-    "rank": 47,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
-  },
-  {
-    "id": 48,
-    "name": "칼랑코에",
-    "price": 14700,
-    "category": "etc",
-    "isBest": true,
-    "rank": 48,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
-  },
-  {
-    "id": 49,
-    "name": "에케베리아",
-    "price": 14800,
-    "category": "succulent",
-    "isBest": true,
-    "rank": 49,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 50,
     "name": "고무나무",
     "price": 14900,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": true,
     "rank": 50,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 51,
     "name": "파파야",
     "price": 15000,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 52,
     "name": "틸란드시아",
     "price": 15100,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 53,
     "name": "행운목",
     "price": 15200,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 54,
     "name": "칼랑코에",
     "price": 15300,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 55,
     "name": "세덤",
     "price": 15400,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 56,
     "name": "페페로미아",
     "price": 15500,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 57,
     "name": "히아신스",
     "price": 15600,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 58,
     "name": "스킨답서스",
     "price": 15700,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 59,
     "name": "금전수",
     "price": 15800,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 60,
     "name": "칼라디움",
     "price": 15900,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 61,
     "name": "연봉",
     "price": 16000,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 62,
     "name": "디펜바키아",
     "price": 16100,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 63,
     "name": "개운죽",
     "price": 16200,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 64,
     "name": "팔손이",
     "price": 16300,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 65,
     "name": "행운목",
     "price": 16400,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 66,
     "name": "제라늄",
     "price": 16500,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 67,
     "name": "수박페페",
     "price": 16600,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 68,
     "name": "고사리",
     "price": 16700,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 69,
     "name": "안스리움",
     "price": 16800,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 70,
     "name": "스킨답서스",
     "price": 16900,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 71,
     "name": "금전수",
     "price": 17000,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 72,
     "name": "칼라디움",
     "price": 17100,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 73,
     "name": "리톱스",
     "price": 17200,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 74,
     "name": "마란타",
     "price": 17300,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 75,
     "name": "안스리움",
     "price": 17400,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 76,
     "name": "틸란드시아",
     "price": 17500,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 77,
     "name": "행운목",
     "price": 17600,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 78,
     "name": "칼랑코에",
     "price": 17700,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 79,
     "name": "세덤",
     "price": 17800,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 80,
     "name": "디펜바키아",
     "price": 17900,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 81,
     "name": "개운죽",
     "price": 18000,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 82,
     "name": "팔손이",
     "price": 18100,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 83,
     "name": "행운목",
     "price": 18200,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   },
   {
     "id": 84,
     "name": "제라늄",
     "price": 18300,
     "category": "etc",
+    "details": [
+      "https://i.pinimg.com/736x/47/3c/36/473c36f3cb006d66ea664bbdc51de87e.jpg",
+      "https://i.pinimg.com/474x/30/03/82/300382fc2de122f762cc519db1f22d93.jpg",
+      "https://i.pinimg.com/474x/e9/5f/d9/e95fd9591ca45c59a6eb02278ff89902.jpg",
+      "https://i.pinimg.com/474x/21/d1/77/21d1772b0f2df2db386c512b419d7b12.jpg",
+      "https://i.pinimg.com/474x/00/2d/09/002d097b27e58d31ab22de34d4be3dce.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
+    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
+    "discount": 5
   },
   {
     "id": 85,
     "name": "수박페페",
     "price": 18400,
     "category": "succulent",
+    "details": [
+      "https://i.pinimg.com/474x/19/8b/28/198b2867570e31dddf44cffb20665246.jpg",
+      "https://i.pinimg.com/474x/e5/80/fc/e580fcd32449792a548e35290d7ca522.jpg",
+      "https://i.pinimg.com/474x/eb/45/35/eb453531989a7d9eb24861cd17553d90.jpg",
+      "https://i.pinimg.com/474x/70/66/3f/70663f738e7649ff38fd0a4b511022b3.jpg",
+      "https://i.pinimg.com/474x/fd/cf/86/fdcf8616b1f78e3e39ad99294746dc14.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
+    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
+    "discount": 5
   },
   {
     "id": 86,
     "name": "고사리",
     "price": 18500,
     "category": "foliage",
+    "details": [
+      "https://i.pinimg.com/474x/8d/db/31/8ddb3113e4097f6e12e039c04a928db7.jpg",
+      "https://i.pinimg.com/474x/c5/6d/86/c56d86eddb16e699f128606b2aac379d.jpg",
+      "https://i.pinimg.com/474x/e8/87/aa/e887aa51be3ac02be0bd65389881aeda.jpg",
+      "https://i.pinimg.com/474x/ee/00/78/ee0078a1883560436498d39f96dd49fa.jpg",
+      "https://i.pinimg.com/474x/72/65/bf/7265bf40853a3c00676a3e2cf05c1495.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
+    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
+    "discount": 5
   },
   {
     "id": 87,
     "name": "안스리움",
     "price": 18600,
     "category": "hydroponic",
+    "details": [
+      "https://i.pinimg.com/474x/4b/b2/a5/4bb2a52e62e41e6575ae3cb6eb0ab1f5.jpg",
+      "https://i.pinimg.com/736x/b4/30/74/b43074c0ccb426c615b47c62d6dd94dd.jpg",
+      "https://i.pinimg.com/474x/3a/3e/df/3a3edfe8b0b8f4a83d7a85ee7c2255b8.jpg",
+      "https://i.pinimg.com/474x/3f/82/3a/3f823a5b4e9a1e92dce78ba2ec7ae572.jpg",
+      "ttps://i.pinimg.com/474x/90/c9/ef/90c9ef19683fab5e1b082ed7237d9936.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
+    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg",
+    "discount": 5
   },
   {
     "id": 88,
     "name": "스킨답서스",
     "price": 18700,
     "category": "air_purifying",
+    "details": [
+      "https://i.pinimg.com/474x/78/58/52/78585203b97f8a2ae9119ea2c4b77a6d.jpg",
+      "https://i.pinimg.com/474x/42/51/0a/42510a2a35df048dc3742421e7331c39.jpg",
+      "https://i.pinimg.com/474x/0b/36/67/0b3667f93f2c80071e5175bdf6eaf2d4.jpg",
+      "https://i.pinimg.com/474x/42/23/42/422342d3f73e20c7bd5ea57e1910b528.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg",
+    "discount": 5
   },
   {
     "id": 89,
     "name": "금전수",
     "price": 18800,
     "category": "lucky",
+    "details": [
+      "https://i.pinimg.com/236x/d2/9f/32/d29f32e87e83d0b419f662ad49c159bf.jpg",
+      "https://i.pinimg.com/474x/8a/a5/f9/8aa5f9792e8908a98a4c6559eaf57e2e.jpg",
+      "https://i.pinimg.com/236x/d0/cc/63/d0cc63cfe9e086a0d9f01f6e6ba2aa61.jpg",
+      "https://i.pinimg.com/736x/72/62/85/7262850cfedb02b539be48791a4454be.jpg",
+      "https://i.pinimg.com/736x/d2/9d/43/d29d430d51799b6d5e00e57aec535566.jpg",
+      "https://i.pinimg.com/736x/f6/cf/ca/f6cfca77709b6ea264b06c8b454c6c40.jpg"
+    ],
     "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
-  },
-  {
-    "id": 90,
-    "name": "칼라디움",
-    "price": 18900,
-    "category": "etc",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
-  },
-  {
-    "id": 91,
-    "name": "리톱스",
-    "price": 19000,
-    "category": "succulent",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
-  },
-  {
-    "id": 92,
-    "name": "마란타",
-    "price": 19100,
-    "category": "foliage",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
-  },
-  {
-    "id": 93,
-    "name": "히아신스",
-    "price": 19200,
-    "category": "hydroponic",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
-  },
-  {
-    "id": 94,
-    "name": "아글라오네마",
-    "price": 19300,
-    "category": "air_purifying",
-    "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
-  },
-  {
-    "id": 95,
-    "name": "행운목",
-    "price": 19400,
-    "category": "lucky",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg"
-  },
-  {
-    "id": 96,
-    "name": "칼랑코에",
-    "price": 19500,
-    "category": "etc",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg"
-  },
-  {
-    "id": 97,
-    "name": "세덤",
-    "price": 19600,
-    "category": "succulent",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg"
-  },
-  {
-    "id": 98,
-    "name": "페페로미아",
-    "price": 19700,
-    "category": "foliage",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg"
-  },
-  {
-    "id": 99,
-    "name": "개운죽",
-    "price": 19800,
-    "category": "hydroponic",
-    "isBest": false,
-    "image": "https://i.pinimg.com/736x/f9/ee/48/f9ee48c7fb0e76da264c397b406b10ed.jpg"
-  },
-  {
-    "id": 100,
-    "name": "팔손이",
-    "price": 19900,
-    "category": "air_purifying",
-    "isBest": false,
-    "image": "https://i.pinimg.com/474x/6a/8f/b1/6a8fb1171ee8073735f90b41526361c5.jpg"
+    "image": "https://i.pinimg.com/736x/4d/a6/4f/4da64f0a5d4406299c72e65cbb512f6f.jpg",
+    "discount": 5
   }
 ]
