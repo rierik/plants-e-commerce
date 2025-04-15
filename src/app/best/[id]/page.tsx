@@ -55,7 +55,7 @@ const BestItemDetails = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setVisible(window.scrollY > 100);
+      setVisible(window.scrollY > 30);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -85,7 +85,7 @@ const BestItemDetails = () => {
           <Image src={selectedImage} alt="상품 메인" width={300} height={300} className="w-full rounded-xl shadow-md" />
         </div>
 
-        {/* 정보 섹션 */}
+        {/* 상품 정보 섹션 */}
         <div className="flex flex-col justify-between ">
           <h1 className="text-3xl font-bold">{item.name}</h1>
           <div className="space-y-6">
@@ -143,11 +143,12 @@ const BestItemDetails = () => {
           </div>
         )} */}
       </div>
+
       {/* 상세 사진 */}
-      <section>
+      <section className="px-4">
         <h2 className="title-p my-10">상세 정보</h2>
         {item.details.map((image: string, index: number) => (
-          <div className="w-full h-auto px-40" key={index}>
+          <div className="w-full h-auto px-36" key={index}>
             <Image src={image} className="my-14 rounded-xl" layout="responsive" width={1} height={1} alt="상세정보"></Image>
           </div>
         ))}
@@ -155,14 +156,18 @@ const BestItemDetails = () => {
 
       <section></section>
 
-      <aside>
-        <button
-          onClick={scrollToTop}
-          className="fixed right-5 bottom-5 w-12 h-12 bg-gray-100 rounded-full text-center leading-12 shadow-lg text-gray-700 cursor-pointer"
-        >
-          Top ^
-        </button>
-      </aside>
+      {visible && (
+        <aside>
+          <button
+            onClick={scrollToTop}
+            className="fixed right-5 bottom-5 bg-gray-100 rounded-full text-center leading-12 shadow-lg text-gray-700 cursor-pointer w-12 h-12"
+          >
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="m-0 mx-auto">
+              <path d="M7.69995 16.8L13.7878 10.7121C13.905 10.595 14.0949 10.595 14.2121 10.7121L20.3 16.8" stroke="black" stroke-width="1.4"></path>
+            </svg>
+          </button>
+        </aside>
+      )}
     </>
   );
 };
