@@ -1,7 +1,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
+
+const navItems = [
+  { name: 'HOME', path: '/' },
+  { name: '베스트', path: '/best' },
+  { name: '신상품', path: '/new' },
+  { name: '카테고리', path: '/category' },
+];
 
 const Header = () => {
+  const [isClient, setIsClient] = useState(false);
+  const [activePath, setActivePath] = useState('/');
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setIsClient(true);
+    setActivePath(pathname);
+  }, [pathname]);
+
   return (
     <header className="grid grid-cols-[160px_auto_120px] items-center w-full h-16 p-1.5  ">
       <Link
@@ -13,18 +31,17 @@ const Header = () => {
       </Link>
 
       <ul className="flex gap-8 items-center justify-center">
-        <li>
-          <Link href={{ pathname: '/' }}>HOME</Link>
-        </li>
-        <li>
-          <Link href={{ pathname: '/best' }}>베스트</Link>
-        </li>
-        <li>
-          <Link href={{ pathname: '/new' }}>신상품</Link>
-        </li>
-        <li>
-          <Link href={{ pathname: '/category' }}>카테고리</Link>
-        </li>
+        {navItems.map((item) => {
+          const isActive = item.path === '/' ? pathname === '/' : pathname === item.path || pathname.startsWith(`${item.path}/`);
+
+          return (
+            <li key={item.path}>
+              <Link href={item.path}>
+                <p className={isActive ? 'text-green-600 font-bold' : ''}>{item.name}</p>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
 
       <ul className="flex items-center gap-4 justify-end">
