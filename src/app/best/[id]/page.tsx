@@ -5,34 +5,13 @@ import Header from './../../Header';
 import Image from 'next/image';
 import TopButton from '@/app/components/TopButton';
 import Footer from '@/app/components/Footer';
-
-interface BestItem {
-  id: number;
-  name: string;
-  price: number;
-  category: string;
-  isBest: boolean;
-  rank?: number;
-  image: string;
-  originalPrice: number;
-  discount: number;
-  details: string[];
-}
-
-const categoryMap: Record<string, string> = {
-  succulent: '다육이',
-  foliage: '관엽식물',
-  hydroponic: '수경재배식물',
-  air_purifying: '공기정화식물',
-  lucky: '행운상징 식물',
-  etc: '기타',
-};
+import { calculateDiscountPrice } from '@/app/utils/utils';
+import { Items, categoryMap } from '@/app/types/item';
 
 const BestItemDetails = () => {
   const { id } = useParams();
-  const [item, setItem] = useState<BestItem | null>(null);
+  const [item, setItem] = useState<Items | null>(null);
   const [selectedImage, setSelectedImage] = useState<string>('');
-  const [topFiveItem, setTopFiveItem] = useState<BestItem[] | null>(null);
 
   const fetchDetailItem = async () => {
     const res = await fetch(`/api/best-items/${id}`);
@@ -41,28 +20,13 @@ const BestItemDetails = () => {
     setSelectedImage(data.image || '/images/default.jpg');
   };
 
-  const topFiveItems = async () => {
-    const res = await fetch('/api/best-items?isBest=true&limit=20');
-    const data = await res.json();
-    setTopFiveItem(data.data);
-  };
-
   useEffect(() => {
     if (id) {
       fetchDetailItem();
-      topFiveItems();
     }
   }, [id]);
 
   if (!item) return <div className="text-center mt-10">로딩 중...</div>;
-
-  function calculateDiscountPrice(originalPrice: number, discountPercent: number) {
-    const discountRate = discountPercent / 100; // % → 소수
-    const discountAmount = originalPrice * discountRate;
-    const finalPrice = originalPrice - discountAmount;
-
-    return finalPrice;
-  }
 
   return (
     <>

@@ -9,6 +9,9 @@ import 'swiper/css/pagination';
 import Link from 'next/link';
 import Header from './Header';
 import Footer from './components/Footer';
+import { useEffect, useState } from 'react';
+import { calculateDiscountPrice } from './utils/utils';
+import { Items } from './types/item';
 
 export default function Home() {
   const slideData = [
@@ -33,6 +36,22 @@ export default function Home() {
       text: '테스트 테스트',
     },
   ];
+
+  const [bestItem, setBestItem] = useState<Items[] | null>(null);
+
+  const bestItems = async () => {
+    const res = await fetch('/api/best-items?isBest=true&limit=4');
+    const data = await res.json();
+    setBestItem(data.data);
+  };
+
+  useEffect(() => {
+    bestItems();
+  }, []);
+
+  useEffect(() => {
+    console.log(bestItem);
+  }, [bestItem]);
 
   return (
     <div className="max-w-custom font-[family-name:var(--font-geist-sans)] w-">
@@ -75,46 +94,27 @@ export default function Home() {
               </span>
             </h2>
             <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-10">
-              <li>
-                <a className="bg-amber-100 inline-block w-full" href="">
-                  <Image className="w-full h-auto" width={269} height={269} src={'/favicon.ico'} alt=""></Image>
-                  <div>
-                    <span>필터링</span>
-                    <h3>상품명</h3>
-                    <p>가격</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a className="bg-amber-100 inline-block w-full" href="">
-                  <Image className="w-full h-auto" width={269} height={269} src={'/favicon.ico'} alt=""></Image>
-                  <div>
-                    <span>필터링</span>
-                    <h3>상품명</h3>
-                    <p>가격</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a className="bg-amber-100 inline-block w-full" href="">
-                  <Image className="w-full h-auto" width={269} height={269} src={'/favicon.ico'} alt=""></Image>
-                  <div>
-                    <span>필터링</span>
-                    <h3>상품명</h3>
-                    <p>가격</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a className="bg-amber-100 inline-block w-full" href="">
-                  <Image className="w-full h-auto" width={269} height={269} src={'/favicon.ico'} alt=""></Image>
-                  <div>
-                    <span>필터링</span>
-                    <h3>상품명</h3>
-                    <p>가격</p>
-                  </div>
-                </a>
-              </li>
+              {bestItem &&
+                bestItem.map((item: Items) => (
+                  <li>
+                    <a className="bg-amber-100 inline-block w-full" href="">
+                      <Image className="w-full h-auto" width={269} height={269} src={'/favicon.ico'} alt=""></Image>
+                      <div>
+                        <div className="mb-2 text-sm font-semibold text-gray-800">{item.category}</div>
+                        <div className="text-sm text-gray-700 leading-snug">{item.name}</div>
+                        <div className="mt-2 text-sm">
+                          <span className="text-red-500 font-semibold mr-1">{item.discount}</span>
+                          <span className="font-bold">{calculateDiscountPrice(item.price, item.discount)}원</span>
+                        </div>
+                      </div>
+                      <div>
+                        <span></span>
+                        <h3></h3>
+                        <p>{item.price}</p>
+                      </div>
+                    </a>
+                  </li>
+                ))}
             </ul>
           </section>
           <section className="my-10">

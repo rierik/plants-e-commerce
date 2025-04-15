@@ -3,35 +3,10 @@ import Header from '../Header';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-
-type Item = {
-  data: ItemData[];
-  total: number;
-  page: number;
-  limit: number;
-};
-
-type ItemData = {
-  id: number;
-  name: string;
-  price: number;
-  category: string;
-  isBest: boolean;
-  rank?: number;
-  image: string;
-};
-
-const categoryMap: Record<string, string> = {
-  succulent: '다육이',
-  foliage: '관엽식물',
-  hydroponic: '수경재배식물',
-  air_purifying: '공기정화식물',
-  lucky: '행운상징 식물',
-  etc: '기타',
-};
+import { categoryMap, ItemMap, Items } from '@/app/types/item';
 
 const Best = () => {
-  const [bestItem, setBestItem] = useState<Item | null>(null);
+  const [bestItem, setBestItem] = useState<ItemMap | null>(null);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [total, setTotal] = useState(0);
@@ -72,7 +47,7 @@ const Best = () => {
       <h1>베스트 아이템</h1>
       <section className="my-10">
         <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10 px-4">
-          {bestItem?.data.map((item: ItemData) => (
+          {bestItem?.data.map((item: Items) => (
             <li key={item.id}>
               <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/best/${item.id}` }}>
                 <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
