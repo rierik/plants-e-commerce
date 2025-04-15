@@ -100,7 +100,7 @@ export default function Home() {
                 </Link>
               </span>
             </h2>
-            <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10 px-4">
+            <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10">
               {bestItem &&
                 bestItem.map((item: Items) => (
                   <li key={item.id}>

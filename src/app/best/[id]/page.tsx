@@ -50,7 +50,7 @@ const BestItemDetails = () => {
                   <p className="ml-3 inline-block text-gray-500 line-through">{item.price.toLocaleString()}원</p>
                 </div>
               )}
-              <p className="text-2xl font-bold text-green-600">{calculateDiscountPrice(item.price, item.discount)}원</p>
+              <p className="text-2xl font-bold text-green-600">{calculateDiscountPrice(item.price, item.discount).toLocaleString()}원</p>
             </div>
 
             <div className="flex items-center gap-4">

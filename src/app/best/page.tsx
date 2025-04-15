@@ -45,7 +45,7 @@ const Best = () => {
     <div>
       <Header />
       <div className="max-w-custom text-right">검색</div>
-      <h1>베스트 아이템</h1>
+      <h1 className="title-p px-4">베스트 아이템</h1>
       <section className="my-10">
         <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10 px-4">
           {bestItem?.data.map((item: Items) => (
@@ -66,7 +66,7 @@ const Best = () => {
                     <span className="text-gray-500">{categoryMap[item.category]}</span>
                     <div className="mt-2 text-sm">
                       <span className="text-red-500 font-semibold mr-1">{item.discount}%</span>
-                      <span className="font-bold">{calculateDiscountPrice(item.price, item.discount)}원</span>
+                      <span className="font-bold">{calculateDiscountPrice(item.price, item.discount).toLocaleString()}원</span>
                     </div>
                   </div>
                 </div>
