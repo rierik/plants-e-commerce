@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Header from './../../Header';
 import Image from 'next/image';
+import TopButton from '@/app/components/TopButton';
 
 interface BestItem {
   id: number;
@@ -31,7 +32,6 @@ const BestItemDetails = () => {
   const [item, setItem] = useState<BestItem | null>(null);
   const [selectedImage, setSelectedImage] = useState<string>('');
   const [topFiveItem, setTopFiveItem] = useState<BestItem[] | null>(null);
-  const [visible, setVisible] = useState(false);
 
   const fetchDetailItem = async () => {
     const res = await fetch(`/api/best-items/${id}`);
@@ -52,19 +52,6 @@ const BestItemDetails = () => {
       topFiveItems();
     }
   }, [id]);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setVisible(window.scrollY > 30);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   if (!item) return <div className="text-center mt-10">로딩 중...</div>;
 
@@ -156,18 +143,7 @@ const BestItemDetails = () => {
 
       <section></section>
 
-      {visible && (
-        <aside>
-          <button
-            onClick={scrollToTop}
-            className="fixed right-5 bottom-5 bg-gray-100 rounded-full text-center leading-12 shadow-lg text-gray-700 cursor-pointer w-12 h-12"
-          >
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="m-0 mx-auto">
-              <path d="M7.69995 16.8L13.7878 10.7121C13.905 10.595 14.0949 10.595 14.2121 10.7121L20.3 16.8" stroke="black" stroke-width="1.4"></path>
-            </svg>
-          </button>
-        </aside>
-      )}
+      <TopButton />
     </>
   );
 };
