@@ -4,6 +4,7 @@ import { useParams } from 'next/navigation';
 import Header from './../../Header';
 import Image from 'next/image';
 import TopButton from '@/app/components/TopButton';
+import Footer from '@/app/components/Footer';
 
 interface BestItem {
   id: number;
@@ -144,6 +145,7 @@ const BestItemDetails = () => {
       <section></section>
 
       <TopButton />
+      <Footer />
     </>
   );
 };
