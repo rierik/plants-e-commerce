@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { categoryMap, ItemMap, Items } from '@/app/types/item';
+import { calculateDiscountPrice } from '../utils/utils';
 
 const Best = () => {
   const [bestItem, setBestItem] = useState<ItemMap | null>(null);
@@ -63,7 +64,10 @@ const Best = () => {
                   <div className="p-4">
                     <h3 className="text-xl font-semibold">{item.name}</h3>
                     <span className="text-gray-500">{categoryMap[item.category]}</span>
-                    <p className="text-lg font-bold">{item.price.toLocaleString()}원</p>
+                    <div className="mt-2 text-sm">
+                      <span className="text-red-500 font-semibold mr-1">{item.discount}%</span>
+                      <span className="font-bold">{calculateDiscountPrice(item.price, item.discount)}원</span>
+                    </div>
                   </div>
                 </div>
               </Link>

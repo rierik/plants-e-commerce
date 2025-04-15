@@ -541,7 +541,8 @@
     "isBest": true,
     "rank": 32,
     "image": "https://i.pinimg.com/736x/15/66/c9/1566c9e851ca16c44a2949866b503b9a.jpg",
-    "discount": 5
+    "discount": 5,
+    "new": true
   },
   {
     "id": 33,
@@ -1045,7 +1046,8 @@
     ],
     "isBest": false,
     "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
-    "discount": 5
+    "discount": 5,
+    "new": true
   },
   {
     "id": 74,
@@ -1221,7 +1223,8 @@
     ],
     "isBest": false,
     "image": "https://i.pinimg.com/736x/72/8e/a2/728ea2a5a01db5bdf44c9383b461a65b.jpg",
-    "discount": 5
+    "discount": 5,
+    "new": true
   },
   {
     "id": 85,
@@ -1237,7 +1240,8 @@
     ],
     "isBest": false,
     "image": "https://i.pinimg.com/736x/44/52/79/4452797d5c737df130dc84daa6e52293.jpg",
-    "discount": 5
+    "discount": 5,
+    "new": true
   },
   {
     "id": 86,
