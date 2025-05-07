@@ -58,7 +58,9 @@ const Header = () => {
                 <ul className="absolute top-14 left-0 mt-2 w-48 bg-white border rounded shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-200 z-10">
                   {item.sub.map((subItem) => (
                     <li key={subItem.path} className="px-4 py-2 hover:bg-gray-100">
-                      <Link href={subItem.path}>{subItem.name}</Link>
+                      <Link className={subItem.path === pathname ? 'text-green-600 font-bold' : ''} href={subItem.path}>
+                        {subItem.name}
+                      </Link>
                     </li>
                   ))}
                 </ul>
