@@ -132,7 +132,15 @@ export default function Home() {
           <section className="my-10 px-4">
             <h2 className="flex items-center justify-between py-4">
               <p className="title-p">신상품</p>
-              <span>더보기</span>
+              <span>
+                <Link
+                  href={{
+                    pathname: '/new',
+                  }}
+                >
+                  더보기
+                </Link>
+              </span>
             </h2>
             <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-10">
               {newItem &&
