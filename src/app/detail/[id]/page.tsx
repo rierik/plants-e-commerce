@@ -1,14 +1,14 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import Header from './../../Header';
+import Header from '../../Header';
 import Image from 'next/image';
 import TopButton from '@/app/components/TopButton';
 import Footer from '@/app/components/Footer';
 import { calculateDiscountPrice } from '@/app/utils/utils';
 import { Items, categoryMap } from '@/app/types/item';
 
-const BestItemDetails = () => {
+const NewItemDetails = () => {
   const { id } = useParams();
   const [item, setItem] = useState<Items | null>(null);
   const [selectedImage, setSelectedImage] = useState<string>('');
@@ -114,4 +114,4 @@ const BestItemDetails = () => {
   );
 };
 
-export default BestItemDetails;
+export default NewItemDetails;

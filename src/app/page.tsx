@@ -104,7 +104,7 @@ export default function Home() {
               {bestItem &&
                 bestItem.map((item: Items) => (
                   <li key={item.id}>
-                    <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/best/${item.id}` }}>
+                    <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/detail/${item.id}` }}>
                       <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
                         <div className="w-full h-auto bg-gray-200">
                           <Image
@@ -138,7 +138,7 @@ export default function Home() {
               {newItem &&
                 newItem.map((item: Items) => (
                   <li key={item.id}>
-                    <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/best/${item.id}` }}>
+                    <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/detail/${item.id}` }}>
                       <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
                         <div className="w-full h-auto bg-gray-200">
                           <Image

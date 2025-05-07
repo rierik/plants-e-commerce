@@ -50,7 +50,7 @@ const Best = () => {
         <ul className="w-full grid grid-cols-[repeat(4,1fr)] gap-x-5 gap-y-12 mb-10 px-4">
           {bestItem?.data.map((item: Items) => (
             <li key={item.id}>
-              <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/best/${item.id}` }}>
+              <Link className="inline-block w-full rounded-2xl" href={{ pathname: `/detail/${item.id}` }}>
                 <div className="max-w-xs rounded-2xl overflow-hidden shadow-md">
                   <div className="w-full h-auto bg-gray-200">
                     <Image
