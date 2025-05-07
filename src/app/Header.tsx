@@ -10,7 +10,6 @@ const navItems = [
   { name: '신상품', path: '/new' },
   {
     name: '카테고리',
-    path: '/category',
     sub: [
       { name: '다육이', path: '/category/succulent' },
       { name: '관엽식물', path: '/category/foliage' },
@@ -49,9 +48,13 @@ const Header = () => {
           return (
             <li key={item.path} className="relative group h-full ">
               <div className="cursor-pointer">
-                <Link href={item.path}>
+                {item.path ? (
+                  <Link href={item.path}>
+                    <p className={isActive ? 'text-green-600 font-bold' : ''}>{item.name}</p>
+                  </Link>
+                ) : (
                   <p className={isActive ? 'text-green-600 font-bold' : ''}>{item.name}</p>
-                </Link>
+                )}
               </div>
 
               {item.sub && (
