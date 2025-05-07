@@ -170,52 +170,52 @@ export default function Home() {
             <ul className="flex justify-between flex-wrap gap-4 p-4rounded-lg ">
               {/* w-full grid grid-cols-[repeat(6,1fr)] gap-10 */}
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/succulent` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/succulent.png'} layout="responsive" width={1} height={1} alt="다육이 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">다육이</span>
-                </a>
+                </Link>
               </li>
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/foliage` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/foliage.png'} layout="responsive" width={1} height={1} alt="다육이 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">관엽식물</span>
-                </a>
+                </Link>
               </li>
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/hydroponic` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/hydroponic.png'} layout="responsive" width={1} height={1} alt="수경재배식물 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">수경재배식물</span>
-                </a>
+                </Link>
               </li>
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/air_purifying` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/air_purifying.png'} layout="responsive" width={1} height={1} alt="공기정화식물 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">공기정화식물</span>
-                </a>
+                </Link>
               </li>
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/lucky` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/lucky.png'} layout="responsive" width={1} height={1} alt="행운상징 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">행운상징식물</span>
-                </a>
+                </Link>
               </li>
               <li className="flex flex-col items-center w-20">
-                <a href="">
+                <Link href={{ pathname: `/category/etc` }}>
                   <div className="w-18 h-18 bg-gray-100 rounded-2xl flex items-center justify-center p-2">
                     <Image src={'/icon/etc.png'} layout="responsive" width={1} height={1} alt="기타 아이콘"></Image>
                   </div>
                   <span className="mt-2 text-sm text-gray-800">기타</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
