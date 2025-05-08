@@ -75,7 +75,9 @@ const Header = () => {
 
       <ul className="flex items-center gap-4 justify-end">
         <li>
-          <a className="inline-block w-8 h-8  rounded-full bg-black" href=""></a>
+          <Link className="" href={{ pathname: '/login' }}>
+            로그인
+          </Link>
         </li>
         <li>
           <a href="">장바구니</a>
